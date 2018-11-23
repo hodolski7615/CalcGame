@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour {
         int a = Random.Range(0, 100);
         int b = Random.Range(0, 100);
         ui_text.text = a.ToString() + " + " + b.ToString();
+
+        // 돌아가서 수정함
     }
 	
 	// Update is called once per frame
