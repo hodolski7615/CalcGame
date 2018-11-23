@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour {
     private int b;
 	// Use this for initialization
 	void Start () {
+        // release 브랜치 주석
+
         a = Random.Range(0, 100);
         b = Random.Range(0, 100);
         ui_text.text = a.ToString() + " + " + b.ToString();
