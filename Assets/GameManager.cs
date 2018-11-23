@@ -21,6 +21,8 @@ public class GameManager : MonoBehaviour {
         Answer1.text = (a + b).ToString();
         Answer2.text = (a + b + 1).ToString();
         Answer3.text = (a + b - 1).ToString();
+        
+        // master 브랜치 주석
     }
 
     public bool IsAnswerToAdd(int number1, int number2, int userAnswer)
