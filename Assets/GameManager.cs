@@ -48,6 +48,7 @@ public class GameManager : MonoBehaviour {
         {
             print("wrong");
         }
+        // 돌아가서 수정함
     }
 	
 	// Update is called once per frame
