@@ -23,7 +23,6 @@ public class GameManager : MonoBehaviour {
         Answer3.text = (a + b - 1).ToString();
         
         // master 브랜치 주석
-        // 사장님 나빠요
     }
 
     public bool IsAnswerToAdd(int number1, int number2, int userAnswer)
